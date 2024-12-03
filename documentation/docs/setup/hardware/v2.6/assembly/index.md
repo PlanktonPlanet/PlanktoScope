@@ -347,3 +347,73 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 * Use the **T8H screwdriver** to fix each of the **8 x M3x14mm screws** in place on Alim module side of the main assembly, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 22.png](images/Finalize Main Assembly 22.png "Finalize Main Assembly 22.png")
+
+## Step 10: Flowcell Holder Assembly
+
+
+:hammer_and_wrench:
+[Tooling](#toolings-hammerandwrench):
+- [ ] T8H screwdriver
+
+:gear:
+[Parts Needed](#content-of-the-kit-gear):
+- [ ] Bamboo Parts F, G & H
+- [ ] 1 x O-ring
+- [ ] 4 x Screw TCHC M2.5X16
+- [ ] 2 x Screw knurled head M2,5 x 12
+- [ ] 2 x Nut HU M2.5
+
+* Get all the parts
+![Flowcell Holder Assembly 1](images/Flowcell Holder Assembly 1.jpg "Flowcell Holder Assembly 1")
+
+* On **Part G**, set the **O-ring** in position
+* Assemble the **2 x knurled head screws M2,5x12mm** with their **2 x Nut HU M2.5**
+>[!NOTE]
+>Beware of the assembly way : nuts on the Oring side in the machined holes
+![Flowcell Holder Assembly 2](images/Flowcell Holder Assembly 2.jpg "Flowcell Holder Assembly 2")
+
+* Assemble Part G on Part F part with the 2 knurled screws
+![Flowcell Holder Assembly 3](images/Flowcell Holder Assembly 3.jpg "Flowcell Holder Assembly 3")
+
+* Locate the 4 **Part H**
+* The 2 Part H with threaded inserts will be below Part F (magnet side)
+![Flowcell Holder Assembly 4](images/Flowcell Holder Assembly 4.jpg "Flowcell Holder Assembly 4")
+
+* Use the **T8H screwdriver** to fix each of the **4 x Screw TCHC M2.5X16** in place, ensuring they are firmly attached but not overly tightened
+![Flowcell Holder Assembly 5](images/Flowcell Holder Assembly 5.jpg "Flowcell Holder Assembly 5")
+
+![Flowcell Holder Assembly 6](images/Flowcell Holder Assembly 6.jpg "Flowcell Holder Assembly 6")
+
+
+## Step 11: Finalization
+
+:gear:
+[Parts Needed](#content-of-the-kit-gear):
+- [ ] Bamboo Part P
+- [ ] [Flowcell Holder Assy](#step-10-flowcell-holder-assembly)
+
+
+* Position **Part P** onto main assembly.
+![Finalization 1](images/Finalization 1.png "Finalization 1")
+
+* Position **Flowcell Holder** onto main assembly.
+![Finalization 2](images/Finalization 2.png "Finalization 2")
+  
+
+# SD Card SetUp and Installation
+
+
+Next, you will need to [set up the PlanktoScope software](../../../software/index.md) on the micro-SD card of your PlanktoScope's Raspberry Pi.
+
+When the software will be uploaded, you can install the SD Card in the PlanktoScope through the window at the bottom of it. Use **small pliers** to help you.
+![SD Card Installation 1](images/SD Card Installation 1.png "SD Card Installation 1")
+
+# Congratulations!! :tada: :clap: :champagne:
+
+If your arrive to this step it probably means that your PlanktoScope V2.6 is fully assembled!!
+What a journey, thank you very much for your commitment.
+
+In order to continue and before starting your first images, the last step is the PlanktoScope set up, ready as it can be to start operating and discovering the beauty of your planktons samples!
+
+To see the set up phase please continue on the next chapter: 
+
