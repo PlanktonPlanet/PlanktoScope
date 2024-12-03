@@ -22,6 +22,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 >:hammer_and_wrench:
 >_[Equipment](#toolings-hammerandwrench): PH1 screwdriver_
+
 >:gear:
 >_[Parts Needed](#content-of-the-kit-gear):_
 >	_- 4 x rubber Feets_
