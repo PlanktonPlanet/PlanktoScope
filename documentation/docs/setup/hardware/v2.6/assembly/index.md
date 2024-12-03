@@ -415,5 +415,6 @@ What a journey, thank you very much for your commitment.
 
 In order to continue and before starting your first images, the last step is the PlanktoScope set up, ready as it can be to start operating and discovering the beauty of your planktons samples!
 
-To see the set up phase please continue on the next chapter: 
+To see the set up phase please continue on the next chapter: [PlanktoScope V2.6 SetUp for Operation](.../set up/index.md)
+
 
