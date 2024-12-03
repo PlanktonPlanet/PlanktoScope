@@ -134,8 +134,8 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 ## Step 5 : Position the power jack shield
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench):
-	- [ ] ??? screwdriver
-	-T6H screwdriver
+- [ ] ??? screwdriver
+- T6H screwdriver
 
 >:gear:
 >_[Parts Needed](#content-of-the-kit-gear):_
