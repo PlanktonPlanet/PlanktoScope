@@ -8,12 +8,14 @@ You can find a list of the components needed in the [Planktoscope V2.6 BOM](../.
 | [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx) | Bill Of Material for PlanktoScope |
 
 We tried to have the most easy-to-supply components, you still may have to adapt and research for new suppliers according to product availability and your location.
-If you find some local alternative please share your custom BOM to our GitHub Discussions thread for [v2.6 Localized Hardware BOMs](https://github.com/PlanktoScope/PlanktoScope/discussions/297), so that other members of our community can learn from your work!
+If you find some local alternative please share your custom BOM to our GitHub Discussions thread for [v2.6 Localized Hardware BOMs](https://github.com/PlanktoScope/PlanktoScope/discussions/502), so that other members of our community can learn from your work!
 
-In the following sections we will go more in detail:
+In the following sections we will go more in detail on:
 
-- on the possibility to machined on your own the Mechanical Structure
-- on the documentations and assembly steps to manufacture the PlanktoScope HAT V1.3
+- the possibility to machined on your own the [Mechanical Structure](#mechanical-structure)
+- the documentations and assembly steps to manufacture the [PlanktoScope HAT V1.3](#planktoscope-hat-1.3-pcb)
+- the cabling steps of the [LED Assy](#led-assembly), the [Alim Jack Assy](#alim-jack-assembly) and the [OnOff Button Assy](#onoff-button-assembly)
+- And finaly the [Optic 20-200 Assy](#optic-20-200-assembly)
 
 
 ## Mechanical Structure
@@ -361,7 +363,24 @@ Congratulation! You have finished to assemble the PlanktoScope HAT 1.3 PCB compo
 
 photo hat terminé
 
+## Cabling Component
+
+
+### LED Assembly
+
+### Alim Jack Assembly
+
+### OnOff Button Assembly
+
+
+## Optic Assembly
+
+
+### Optic 20-200 Assembly
+
+
+
 ## To be continued...
 
 Now you succeed to supply and manufacture the entire BOM for the PlanktoScope V2.6.
-Please continue your trip with us on the next doucmentation in the [assembly](../assembly/index.md) section.
+Please continue your trip with us on the next doucmentation in the [assembly](../assembly/index.md) section. :flying_saucer: :microbe:
