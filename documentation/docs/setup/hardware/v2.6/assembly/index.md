@@ -1,6 +1,12 @@
 
 # Assembly of the PlanktoScope V2.6
 
+Be prepared, stretch your legs, take a snack, some water: now start the 2nd part of the journey. Next step : a fully assembled PlanktoScope!! :microscope: :world_map:
+
+All the following steps will guide you step by step through it.
+
+If you are ready, let's dive in it… :diving_mask:
+
 
 ## Content of the Kit :gear:
 
