@@ -207,7 +207,7 @@ As explain earlier on and in order to let you dive into a fun DIY project or pic
 
 ### Assembly of the Drivers TMC 5160
 
-#### Toolings :hammer_and_wrench:
+#### Tooling :hammer_and_wrench:
 photo du materiel nécessaire
 
 - Professional Soldering Iron
@@ -238,8 +238,10 @@ Unpack the Drivers TMC 5160 and the Connector Header strips of 8 pins (x2) and 2
 
 2. Cut the via bridge
 
->:hammer_and_wrench:
->_Tooling: Utility knif and multimeter_
+:hammer_and_wrench:
+[Tooling](#tooling-hammerandwrench): 
+- [ ] Utility knife
+- [ ] Multimeter
 
 Bridge Cut: use a razor blade or a utility knife to unable conductivity between 2 of the 4 slots as shown in the following visual:
 
@@ -298,7 +300,7 @@ Photo montage driver sur HAT
 
 These steps will show you how to install the axial fan on the PlanktoScope Hat 1.3 and how to create soldering bridges at the bottom of the board.
 
-#### Equipment :hammer_and_wrench:
+#### Tooling :hammer_and_wrench:
 
 - Professional Soldering Iron
 - Solder
@@ -321,8 +323,10 @@ Photo des composants
 
 2. Install the Axial Fan
 
->:hammer_and_wrench:
->Tooling: use the Scredriver Hex2 and the Pliers._
+:hammer_and_wrench:
+[Tooling](#tooling-hammerandwrench): 
+- [ ] Scredriver Hex2
+- [ ] Pliers
 
 Install the fan with the four screws and nuts on the top side of the PlanktoScope HAT 1.3 PCB. 
 
@@ -331,7 +335,7 @@ Pay attention to the **running direction** with the arrow marking on the side of
 
 Photo du positionnement du hat
 
->:hammer_and_wrench:
+:hammer_and_wrench:
 >_Tooling: use the wire stripper pliers_
 
 Cut off the wires of the Axial Fan in order to leave about 6 cm.
