@@ -24,7 +24,7 @@ In order to create the PlanktoScope case, parts were designed to be machined wit
 The configuration of the CNC milling machine plays a crucial role in the machining process and can significantly affect the quality and efficiency of the production of a workpiece. You will have to adapt the file to your machine as every CNC milling machine gets its characteristics: feed rate and diameter adjustment according to your machine and selected end mill. 
 And don't forget safety, use your nicest protective glasses! :-)
 
-![Bamboo Structure V2.6 dxf view](image/Bamboo Structure V2.6 dxf view.png "Bamboo Structure V2.6 dxf view")
+![Bamboo Structure V2.6 dxf view](images/Bamboo Structure V2.6 dxf view.png "Bamboo Structure V2.6 dxf view")
 
 
 ### Manufacturing file
@@ -48,7 +48,7 @@ For a different thickness you’ll need to adapt it.
 >[!TIP]
 >For a better assembly and if your software does not add it automaticaly use "dog bone" filet on every corner. :bone:
 
-![Dogbone example.png](image/Dogbone example.png)
+![Dogbone example.png](images/Dogbone example.png)
 
 
 
@@ -90,7 +90,7 @@ Here you can use your favorite finishing according to the selected material. Be 
 
 Dry all parts and store them for the assembly process.
 
-![Bamboo Structure V2.6 exploded view](image/Bamboo Structure V2.6 exploded view.png "Bamboo Structure V2.6 dxf view")
+![Bamboo Structure V2.6 exploded view](images/Bamboo Structure V2.6 exploded view.png "Bamboo Structure V2.6 dxf view")
 ## PlanktoScope Hat 1.3 PCB
 
 Welcome to the PCB production manual for the PlanktoScope Hat 1.3!
@@ -368,13 +368,83 @@ Congratulation! You have finished to assemble the PlanktoScope HAT 1.3 PCB compo
 photo hat terminé
 
 ## Cabling Component
+The next step of the kit preparation is to prepare some cabling: by using standard component with few simple cabling steps it become possible to get tailor maid component for the PlanktoScope.
 
+In the following chapters we will go through soldering and crimping adventures.
+
+For this the needed equipments will be:
+#### Tooling :hammer_and_wrench:
+photo du materiel nécessaire
+
+- Professional Soldering Iron
+- Solder
+- Crimping pliers
+- Stripping pliers
+- Third Hand / small Anvil
+- Heat Gun
+
+You willl also need, in addition to the component themselves, some consumable:
+#### Consumable:
+
+- Heat Shrink Black Dia	
+- Heat Shrink Red Dia	
+
+>[!NOTE]:
+>You can find reference example in the "Consumable" section of the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
 
 ### LED Assembly
 
+A simple first assembly is the LED Assembly.
+
+1. Prepare the components
+
+| Designation                       | Qty | Example of reference  |
+|-----------------------------------|-----|-----------------------|
+| JST 1.25mm Male Connectors 200 mm | 1   | Ali Express - JST-200 |
+| Super Bright White 5mm LED        | 1   | Mouser - 485-754      |
+
+Here the JST connector proposed is already wired.
+
+2. Prepare the wires. With the **stripping pliers** stripped the wire over 1cm.
+
+3. Find the anode (smaller) and cathode (longer) pin of the **LED**. Slide a **Heat Shrink** on each wire.
+
+Image anode vs cathode
+
+4. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and the pins of the LED and solder the black wire to the anode (small pin) and the red wire to the cathode pin (longer pin).
+
+5. Slide the heat srink on the soldering and use the **heat gun** to secure it and make sure <ins>no contact can be made between the 2 pins</ins>.
+
+6. Led Assembly is ready!
+
+
 ### Alim Jack Assembly
 
+The Alim Jack Assembly will be the link between the external 12V adaptor to the internal electronic system.
+
+1. Prepare the components
+   
+| Designation                          | Qty | Example of reference |
+|--------------------------------------|-----|----------------------|
+| DC Power Jack Shield - 5,5mm 2,1mm   | 1   | Ampul	AM1249         |
+| Bullet Connector 3.5mm Male + Female | 1   | Amazon B081TXM3XN    |
+
+2. Maintain the **Female Bullet Connector*** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre with some soldering material and dive the **Red Wire** in. Remove the solder iron. Wait the soldering material to dry.
+    
+3. Same operation with the **Male Bullet Connector** and the **Black Wire**.
+>[!CAUTION]:
+>It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
+
+4. Slide a 15mm of Red Heat Srink on the female connector. Be careful of covering all the metalic part. Use the **heat gun** to secure it.
+
+5. Slide a 15mm of Black Heat Srink on the male connector. Be careful of covering all the metalic part. Use the heat gun to secure it.
+
+6. Alim Jack Assembly is ready!
+
+
 ### OnOff Button Assembly
+
+The OnOff Button Assembly will be place between the Alim Jack Assembly and the PlanktoScope Hat 1.3 PCB. It will play the role of the switch On & Off of the PlanktoScope.
 
 
 ## Optic Assembly
