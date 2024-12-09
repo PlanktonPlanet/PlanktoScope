@@ -386,8 +386,10 @@ photo du materiel nécessaire
 You willl also need, in addition to the component themselves, some consumable:
 #### Consumable:
 
-- Heat Shrink Black Dia	
-- Heat Shrink Red Dia	
+- Heat Shrink Black \&Oslash
+- Heat Shrink Red \&Oslash
+- Wire Crimps \&Oslash
+- Zip Ties
 
 >[!NOTE]:
 >You can find reference example in the "Consumable" section of the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
@@ -411,7 +413,7 @@ Here the JST connector proposed is already wired.
 
 Image anode vs cathode
 
-4. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and the pins of the LED and solder the black wire to the anode (small pin) and the red wire to the cathode pin (longer pin).
+4. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and the pins of the LED and solder the ⚫black wire to the anode (small pin) and the 🔴red wire to the cathode pin (longer pin).
 
 5. Slide the heat srink on the soldering and use the **heat gun** to secure it and make sure <ins>no contact can be made between the 2 pins</ins>.
 
@@ -429,9 +431,9 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 | DC Power Jack Shield - 5,5mm 2,1mm   | 1   | Ampul	AM1249         |
 | Bullet Connector 3.5mm Male + Female | 1   | Amazon B081TXM3XN    |
 
-2. Maintain the **Female Bullet Connector*** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre with some soldering material and dive the **Red Wire** in. Remove the solder iron. Wait the soldering material to dry.
+2. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the 🔴**Red Wire** in. Remove the solder iron. Wait the soldering material to dry.
     
-3. Same operation with the **Male Bullet Connector** and the **Black Wire**.
+3. Same operation with the **Male Bullet Connector** and the ⚫**Black Wire**.
 >[!CAUTION]:
 >It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
 
@@ -446,8 +448,29 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 
 The OnOff Button Assembly will be place between the Alim Jack Assembly and the PlanktoScope Hat 1.3 PCB. It will play the role of the switch On & Off of the PlanktoScope.
 
+1. Prepare the components:
+| Designation                                    | Qty | Reference           |
+|------------------------------------------------|-----|---------------------|
+| Electrically locked push buttons Gebildet 16mm | 1   | Amazon - E222       |
+| Bullet Connector 3.5mm Male + Female           | 1   | Amazon - B081TXM3XN |
+
+2. Preparation of the **Push Button Gebildet**. Remove ⚪**White Wire** by firmly pulling on it. Prepare each wire end (whit wire include) with a 1 cm strpping.
+3. Use the **Crimpimg Plier** to add a wire crimp on the 🔴**Red Wire** and an other one on the ⚫+⚪**Black+White wire**.
+4. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the ⚫+⚪**Black+White** in. Remove the solder iron. Wait the soldering material to dry.
+5. Same operation with the **Male Bullet Connector** and the 🔴**Red Wire**.
+   
+>[!CAUTION]:
+>It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
+
+
+6. Use 4 **Zip Tes** to secure the wires together.
+7. OnOff Button is ready!
 
 ## Optic Assembly
+
+
+
+
 
 
 ### Optic 20-200 Assembly
