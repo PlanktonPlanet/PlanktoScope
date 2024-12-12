@@ -468,16 +468,51 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
 
 ## Optic Assembly
 
+One of the crucial part of the PlanktoScope is the Optic. It is THE most sensitive assembly as the sensor of the PI Camera HQ will be unprotected for few minutes.
+To perform this assembly, make sure your workstation is as clean as possible: dust will be our worst ennemy during this step.
 
+Prepare the following toolings:
+#### Tooling :hammer_and_wrench:
+photo du materiel nécessaire
 
-
-
+- Screwdriver Hex 1.5
+- Specific Thorlab tooling SPW909
+- A caliper
 
 ### Optic 20-200 Assembly
 
+1. Prepare the components:
+| Designation                                     | Qty | Reference example |
+|-------------------------------------------------|-----|-------------------|
+| HQ Camera Pi Official - C to CS                 | 1   |                   |
+| CM1L10 - Extension Tube, Internal SM1 Threading | 1   | Thorlabs CM1L10   |
+| S1TM12 - SM1 to M12 x 0.5 Lens Cell Adapter     | 2   | Thorlabs S1TM12   |
+| M12 Lens 25MM 5MP 1/2"                          | 1   | Jetsun M12-25-5MP |
+| M12 Lens 12MM 5MP 1/2.5"                        | 1   | Jetsun M12-12-5MP |
 
+2. Set the  **M12/25 Lens** and the **M12/12 Lens** on each of the **S1TM12 Lens Adapters**.
+3. Remove the retaining ring in the **CM1L10 Extension Tube**
+4. Insert the M12/25 Lens in the CM1L10 Extension Tube.Threaded side of the lens first. By using the **Tooling SPW909** set the lens Adapter at 14.7mm deep.
+5. Insert the M12/12 Lens in the CM1L10 Extension Tube.Threaded side of the lens out. By using the Tooling SPW909 screw gently up to contact with the M12/25 Lens. Set back the protective cap.
+6.  Remove the black holding part of the **HQ Camera Pi**  with the  **Screwdriver Hex 1.5**.
+7.  Follow the [official tutorial from RaspBerry to remove the IR Filtre](https://www.raspberrypi.com/documentation/accessories/camera.html#filter-removal).
+
+>[!INFO]:
+> Do not hesitate to warm a bit the UV Filter with a heat gun or a hair dryer to soften the glue.
+
+>[!WARNING]:
+> This step is critical, try to remove the IR filtre without breaking it. If it is broken, clean as much as possible to remove all glass debris. Anyway, set your camera sensor asside and in a protected area during this operation. All dust and glass debris on the sensor will be really visible and emphasize on the final assembly.
+
+8. You can now assemble the Optical canon assembly with the HQ Camera Pi. 
+
+>[!INFO]:
+> On the first PlanktoScope switch on, you will see the results of this assembly. If some dust is visible use really carefuly a small dust blower to remove it from the camera sensor.
+
+9. The Optic 20-200 Assembly is ready!
 
 ## To be continued...
 
-Now you succeed to supply and manufacture the entire BOM for the PlanktoScope V2.6.
-Please continue your trip with us on the next doucmentation in the [assembly](../assembly/index.md) section. :flying_saucer: :microbe:
+Congratulation, if you make it to the end of this "Kit  Section" you must have succeeded to supply and manufacture the entire BOM for the PlanktoScope V2.6.
+
+We would be thrilled to have you continue your journey with us as we move on to the next phase of the documentation in the
+ [assembly](../assembly/index.md) section. :flying_saucer: :microbe:
