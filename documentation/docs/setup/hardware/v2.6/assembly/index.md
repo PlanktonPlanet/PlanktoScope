@@ -1,6 +1,6 @@
 # Assembly of the PlanktoScope V2.6
 
-Be prepared, stretch your legs, take a snack, some water: now start the 2nd part of the journey. Next step : a fully assembled PlanktoScope!! :microscope: :world_map:
+Be prepared, stretch your legs, take a snack, some water: now start the 2nd part of the journey. Next stop : a fully assembled PlanktoScope!! :microscope: :world_map:
 
 All the following steps will guide you step by step through it.
 
@@ -20,7 +20,17 @@ It is important to ensure that you have all of the necessary components before b
 You can find the BOM for the PlanktoScope V2.6 and all the informations to supply or manufacture the components named with "… Assembly" in the [Kit Production](.../kit/Kit Production.md) documentation.
 
 ## Toolings :hammer_and_wrench:
+In order to perform all the assembly steps you will need the following toolings:
+
 - PH1 screwdriver
+- T8H or Hex2 screwdriver
+- T6H or Hex1.5 screwdriver
+- Flat screwdriver 2.5
+- Small cutting pliers
+- Female Hexagonal 4mm screwdriver or small pliers
+- open-end wrench 14
+- open-end wrench 19
+
 
 
 ## Step 1: Rubber Feets Assembly
@@ -71,7 +81,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench): 
-- [ ] T8H screwdriver
+- [ ] T8H or Hex2 screwdriver
 
 :gear:
 [Parts Needed](#content-of-the-kit-gear):
@@ -83,7 +93,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 * Place the **Peristaltic Pump** into its designated hole on **Part L**
 ![Assemble the pump 1.png](images/Assemble the pump 1.png)
 * Flip both parts.
-* Use the **T8H screwdriver** to fix each **M2.5x5 screws** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each **M2.5x5 screws** in place, ensuring they are firmly attached but not overly tightened
 ![Assemble the pump 2.png](images/Assemble the pump 2.png "Assemble the pump 2.png")
 * Put this assembly on the side.
 
@@ -91,8 +101,8 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench):
-- [ ] ??? screwdriver
-- [ ] T6H screwdriver
+- [ ] Female Hexagonal 4mm screwdriver or small pliers
+- [ ] T6H or Hex1.5 screwdriver
 
 :gear:
 [Parts Needed](#content-of-the-kit-gear):
@@ -105,11 +115,11 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 - [ ] Heat Sink
 - [ ] Camera Ribbon Cable
 
-* Using a **screwdriver with no bits**, securely fasten each of the **4 x Hexagonal Spacer M2X5** on **Bamboo Part A**, making sure they're tight but not over-tightened
+* Using a **Female Hexagonal 4mm screwdriver**, securely fasten each of the **4 x Hexagonal Spacer M2X5** on **Bamboo Part A**, making sure they're tight but not over-tightened
 ![Assemble Core Module 1.png](images/Assemble Core Module 1.png "Assemble Core Module 1")
 
 * Position the Raspberry Pi 4 so that it rests on each spacer
-* Using a **screwdriver with no bits**, securely fasten each of the **4 x Hexagonal Spacer M2X12**, making sure they're tight but not over-tightened
+* Using a **Female Hexagonal 4mm screwdriver**, securely fasten each of the **4 x Hexagonal Spacer M2X12**, making sure they're tight but not over-tightened
 ![Assemble Core Module 2.png](images/Assemble Core Module 2.png "Assemble Core Module 2")
 
   * Remove its protective layer of the **heat sink** and tape it on the Broadcom chip of the **Raspberry Pi**
@@ -133,7 +143,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 ![Assemble Core Module 6](images/Assemble Core Module 6.png "Assemble Core Module 6")
 
 * Plug the PlanktoScope HAT V1.3 Assy into the Raspberry Pi
-* Use the **T6H screwdriver** to fix each of the **4 x Screw TCHC M2X4** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T6H or Hex1.5 screwdriver** to fix each of the **4 x Screw TCHC M2X4** in place, ensuring they are firmly attached but not overly tightened
 ![Assemble Core Module 7](images/Assemble Core Module 7.png "Assemble Core Module 7")
 * Put this assembly on the side.
 
@@ -164,7 +174,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench):
-- [ ] T8H screwdriver
+- [ ] T8H or Hex2 screwdriver
 
 :gear:
 [Parts Needed](#content-of-the-kit-gear):
@@ -181,7 +191,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 >[!WARNING]
 > Pay a close attention to its correct orientation
 
-* Use the **T8H screwdriver** to fix each of the **4 x M2.5x5mm screws** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **4 x M2.5x5mm screws** in place, ensuring they are firmly attached but not overly tightened
 ![Assemble the Optic 20-200 Assy 2](images/Assemble the Optic 20-200 Assy 2.png "Assemble the Optic 20-200 Assy 2")
 
 * Put this assembly on the side.
@@ -251,7 +261,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench):
-- [ ]  T8H screwdriver
+- [ ]  T8H or Hex2 screwdriver
 - [ ]  Small cutting pliers
 
 :gear:
@@ -284,13 +294,13 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 
 * Flip the assembly
-* Use the **T8H screwdriver** to fix each of the **4 x M3x14mm screws** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **4 x M3x14mm screws** in place, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 5.png](images/Finalize Main Assembly 5.png "Finalize Main Assembly 5.png")
 
 
 * Flip again the assembly
 * Find the **Part E** and the place on the 2 Linear stepper motor
-* Use the **T8H screwdriver** to fix each of the **4 x M2.5x10mm screws** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **4 x M2.5x10mm screws** in place, ensuring they are firmly attached but not overly tightened
 
 >[!NOTE]
 >Design of Bamboo Part E has evolved suring PlanktoscopeV2.6 life. You may obtain a slightly different part as shown in the picture. Assembly process is the same. 
@@ -310,7 +320,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 ![Finalize Main Assembly 10.png](images/Finalize Main Assembly 10.png "Finalize Main Assembly 10.png")
 
 * Flip the assembly
-* Use the **T8H screwdriver** to fix each of the **4 x M3x14mm screws** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **4 x M3x14mm screws** in place, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 11.png](images/Finalize Main Assembly 11.png "Finalize Main Assembly 11.png")
 
 * Connect the Peristaltic pump on the PlanktoScope HAT
@@ -344,13 +354,13 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 * Position button module onto main assembly
 ![Finalize Main Assembly 19.png](images/Finalize Main Assembly 19.png "Finalize Main Assembly 19.png")
 
-* Use the **T8H screwdriver** to fix each of the **8 x M3x14mm screws** in place on top of the main assembly, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **8 x M3x14mm screws** in place on top of the main assembly, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 20.png](images/Finalize Main Assembly 20.png "Finalize Main Assembly 20.png")
 
-* Use the **T8H screwdriver** to fix each of the **8 x M3x14mm screws** in place on Part J side of the main assembly, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **8 x M3x14mm screws** in place on Part J side of the main assembly, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 21.png](images/Finalize Main Assembly 21.png "Finalize Main Assembly 21.png")
 
-* Use the **T8H screwdriver** to fix each of the **8 x M3x14mm screws** in place on Alim module side of the main assembly, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **8 x M3x14mm screws** in place on Alim module side of the main assembly, ensuring they are firmly attached but not overly tightened
 ![Finalize Main Assembly 22.png](images/Finalize Main Assembly 22.png "Finalize Main Assembly 22.png")
 
 ## Step 10: Flowcell Holder Assembly
@@ -358,7 +368,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 
 :hammer_and_wrench:
 [Tooling](#toolings-hammerandwrench):
-- [ ] T8H screwdriver
+- [ ] T8H or Hex2 screwdriver
 
 :gear:
 [Parts Needed](#content-of-the-kit-gear):
@@ -384,7 +394,7 @@ You can find the BOM for the PlanktoScope V2.6 and all the informations to suppl
 * The 2 Part H with threaded inserts will be below Part F (magnet side)
 ![Flowcell Holder Assembly 4](images/Flowcell Holder Assembly 4.jpg "Flowcell Holder Assembly 4")
 
-* Use the **T8H screwdriver** to fix each of the **4 x Screw TCHC M2.5X16** in place, ensuring they are firmly attached but not overly tightened
+* Use the **T8H or Hex2 screwdriver** to fix each of the **4 x Screw TCHC M2.5X16** in place, ensuring they are firmly attached but not overly tightened
 ![Flowcell Holder Assembly 5](images/Flowcell Holder Assembly 5.jpg "Flowcell Holder Assembly 5")
 
 ![Flowcell Holder Assembly 6](images/Flowcell Holder Assembly 6.jpg "Flowcell Holder Assembly 6")

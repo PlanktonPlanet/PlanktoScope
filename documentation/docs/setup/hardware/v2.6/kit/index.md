@@ -512,7 +512,7 @@ photo du materiel nécessaire
 
 ## To be continued...
 
-Congratulation, if you make it to the end of this "Kit  Section" you must have succeeded to supply and manufacture the entire BOM for the PlanktoScope V2.6.
+Congratulation, if you make it to the end of this "Kit Section" you may have succeeded to supply and manufacture the entire BOM for the PlanktoScope V2.6.
 
 We would be thrilled to have you continue your journey with us as we move on to the next phase of the documentation in the
  [assembly](../assembly/index.md) section. :flying_saucer: :microbe:
