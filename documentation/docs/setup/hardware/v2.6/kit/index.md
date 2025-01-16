@@ -81,12 +81,12 @@ Valchromat is a wood-based composite material made from recycled wood fibers and
 
 ### Finnish of the plates
 
-After your wonderful milling process, remove all dust and remain of the milling and machining.
+After your wonderful milling process, remove all dust and remains of the milling and machining.
 
 Here you can use your favorite finishing according to the selected material. Be sure that it remains as environmentally friendly as possible.
 
 >[!NOTE]
-> For example, FairScope uses Rubio Monocoat Plus. It is a wood finishing product that is designed to provide a durable, natural-looking finish to wood surfaces. It is made from plant-based oils and pigments, which give it a transparent finish that enhances the natural beauty of the wood.
+> For example, FairScope uses Rubio Monocoat Plus. It is a wood finishing product that is designed to provide a durable, natural-looking finish to wood surfaces. It is made from plant-based oils and pigments, which give it a transparent finish that enhances the natural aspect of the wood.
 
 Dry all parts and store them for the assembly process.
 
@@ -110,34 +110,30 @@ A **Printed Circuit Board (PCB)** is a vital component of electronic devices, pr
 Components used on PCBs are either **Thru-Hole** (leads pass through the board, ideal for durability) or **Surface Mount** (soldered directly on the surface, suited for compact designs). The choice depends on the device’s requirements.
 
 You will find on the following files the full documentation to ask for a quotation to your electronic prototypist.
+We will also guide you through the assembly of side components to complete the PlanktoScope HAT 1.3 fabrication.
 
 >[!NOTE]
-> Depending on stock availability, FairScope can also be considered as a supplier.
-
+> Depending on stock availability, FairScope can also be considered as a supplier for the fully assembled PlanktoScope HAT 1.3.
 
 ### Manufacturing Information
 
 #### Manufacturing Files
 
-| Files                                                               | Description                                   |
-|---------------------------------------------------------------------|-----------------------------------------------|
-| Planktoscope-Hat-V1.3-gerbers.zip                                   | The exported Gerber files for PCB fabrication |
-| BOM Planktoscope HAT V1.3                                           | The list of used SMD components               |
-| PlanktoscopeHat-v1.3-fab.pdf                                        | The SMD assembly footprints                   |
-| PnP_PlanktoscopeHat-v1.3-fab_front.txt                              | Pick-and-place machine instructions           |
-| PlanktoscopeHat-v1.3-fab_thru-hole component (missing from PnP).jpg | Additional data for ThruHole components       |
+| Files                                                                                                                 | Description                                                                                                                   |
+|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [Planktoscope-Hat-V1.3-gerbers.zip](../../../../assets/hardware/v2.6/Planktoscope-Hat-V1.3-gerbers.zip)               | The exported Gerber files for PCB fabrication                                                                                 |
+| [Assembly files PlanktoScope HAT V1.3.zip](../../../../assets/hardware/v2.6/Assembly files PlanktoScope HAT V1.3.zip) | The SMD components list and assembly footprints, Pick-and-place machine instructions, Additional data for ThruHole components |
 
-Some components are missing from the Pick and Place file. Please refer to the document titled "[PlanktoscopeHat-v1.3-fab\_thru-hole component (missing from PnP).jpg](https://drive.google.com/file/d/1_4COxhZdL6mLXmLuc3Mpb77Xwj2Vl10f/view?usp=drive_link)" for further details.
+Some components are missing from the "Pick-and-Place machine instructions" file. Please refer to the document titled "PlanktoscopeHat-v1.3-fab\_thru-hole component (missing from PnP).jpg" for further details.
 
 We recommend asking your prototypist to assemble all the thru-hole components. In order to reduce costs and if you feel like doing it, you can assemble them manually, be really cautious of the correct solderings.
 
 The assembly of the Drivers TMC 5160 and the Axial Fan assembly are here proposed in parallel and DIY. No worries, everything is explain in [Assembly of the Drivers TMC 5160](#assembly-of-the-drivers-tmc-5160) & [Assembly of the Axial Fan](#assembly-of-the-axial-fan). 
-They are not included as Thru-Hole components list for the prototypiste.
+They are not included in Thru-Hole components list for the prototypiste.
 
-#### Configuration
+#### Configuration on prototypist website
 
 The following configuration parameters can be used for the production of the PCB.
-
 
 >[!CAUTION]
 > Please note that the naming may vary depending on the manufacturing company you used and are only intended to provide you with support. You can, of course, adjust the parameters as you see fit.
@@ -199,11 +195,8 @@ The following configuration parameters can be used for the production of the PCB
 | Gold fingers (thickness)   | without   |
 | Gold fingers (qty/PCB)     | without   |
 
-#### Thru-Hole Components
-We recommend you to ask the prototypist to assemble all the 
-Thru-Hole components.
-
-As explain earlier on and in order to let you dive into a fun DIY project or pick up a new skill, why not try some soldering? In the following steps, we’ll guide you through assembling the Drivers TMC 5160 (used to control the peristaltic pump and the linear stepper motors) and the Axial Fan. Let’s get started!
+#### Next steps
+As explain earlier on and in order to let you dive into a fun DIY project or pick up a new skills, some soldering is about to come! In the following steps, we’ll guide you through assembling the Drivers TMC 5160 (used to control the peristaltic pump and the linear stepper motors) and the Axial Fan. Let’s get started!
 
 ### Assembly of the Drivers TMC 5160
 
