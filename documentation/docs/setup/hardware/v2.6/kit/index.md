@@ -265,7 +265,7 @@ photo position drvier sur connector
 
 
 >[!WARNING]
-> Make sure that the larger chip labeled trimatik is positioned on the bottom of the board and the four smaller chips are positioned on the top of the board as shown in the picture.
+> Make sure that the larger chip labeled "trimatik" is positioned on the bottom of the board and the four smaller chips are positioned on the top of the board as shown in the picture.
 
 photo de pres d'un driver non soudé
 
@@ -400,9 +400,14 @@ A simple first assembly is the LED Assembly.
 
 Here the JST connector proposed is already wired.
 
+Photo composants
+
 2. Prepare the wires. With the **stripping pliers** stripped the wire over 1cm.
 
-3. Find the anode (smaller) and cathode (longer) pin of the **LED**. Slide a **Heat Shrink** on each wire.
+Photo fil dénudés
+
+
+4. Find the anode (smaller) and cathode (longer) pin of the **LED**. Slide a **Heat Shrink** on each wire.
 
 Image anode vs cathode
 
