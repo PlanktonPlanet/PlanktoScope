@@ -452,10 +452,12 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
 | Electrically locked push buttons Gebildet 16mm | 1   | Amazon - E222       |
 | Bullet Connector 3.5mm Male + Female           | 1   | Amazon - B081TXM3XN |
 
-2. Preparation of the **Push Button Gebildet**. Remove ⚪**White Wire** by firmly pulling on it. Prepare each wire end (whit wire include) with a 1 cm strpping.
+2. Preparation of the **Push Button Gebildet**. Remove ⚪**White Wire** by firmly pulling on it. Prepare each wire end (whit wire include) with a 1 cm striping.
 3. Use the **Crimpimg Plier** to add a wire crimp on the 🔴**Red Wire** and an other one on the ⚫+⚪**Black+White wire**.
-4. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the ⚫+⚪**Black+White** in. Remove the solder iron. Wait the soldering material to dry.
-5. Same operation with the **Male Bullet Connector** and the 🔴**Red Wire**.
+4. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the ⚪**White wire
+5.
+6. ** in. Remove the solder iron. Wait the soldering material to dry.
+7. Same operation with the **Male Bullet Connector** and the 🔴**Red Wire**.
    
 >[!CAUTION]:
 >It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
