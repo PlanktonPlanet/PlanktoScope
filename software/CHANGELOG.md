@@ -7,6 +7,42 @@ and this project uses [Calendar Versioning](https://calver.org/) with a `YYYY.mi
 for all releases after `v2.3.0`.
 All dates in this file are given in the [UTC time zone](https://en.wikipedia.org/wiki/Coordinated_Universal_Time).
 
+## Unreleased
+
+### Added
+
+- (Application: GUI) The landing page now has a link to a new page (actually a filebrowser file viewer) which lists the MAC addresses of all network interfaces, to make it easier to figure out MAC addresses for registering the Raspberry Pi on networks which require such registrations as a requirement for internet access.
+
+### Changed
+
+- (Application: GUI) The Node-RED dashboard now initializes the Sample page's Dilution Factor field to 1.0, instead of leaving it empty.
+
+### Removed
+
+- (Application: backend) The old raspimjpeg-based imager has now been completely removed, following a deprecation in v2024.0.0-alpha.2.
+- (Application: GUI) Various elements of the Node-RED dashboard which were deprecated in v2024.0.0 and in v2024.0.0-alpha.2 have now been removed, including the old USB backup functionality.
+
+## v2024.0.0 - 2024-12-25
+
+### Added
+
+- (Application: Documentation) The embedded documentation site now includes a PDF of a draft of v4 of the [protocols.io protocol for PlanktoScope operation](https://www.protocols.io/view/planktoscope-protocol-for-plankton-imaging-bp2l6bq3zgqe).
+
+### Removed
+
+- (Application: Documentation) The embedded documentation site no longer includes links or PDFs for [v2 of the protocols.io protocol for PlanktoScope operation](https://www.protocols.io/view/planktoscope-protocol-for-plankton-imaging-bp2l6bq3zgqe/v1) and [v3 of the protocols.io protocol for PlanktoScope operation](https://www.protocols.io/view/planktoscope-protocol-for-plankton-imaging-bp2l6bq3zgqe/v3).
+
+### Deprecated
+
+- (Application: GUI) The following elements of the Node-RED dashboard's "Optic Configuration" tab will be removed in a future release (probably the next major release): "objective lens aperture", "magnification", "pixel resolution", "smallest cells to explore", "biggest cells to explore". This is because these fields are currently not very useful/reliable.
+- (Application: GUI) The following elements of the Node-RED dashboard's "Segmentation" tab will be removed in a future release (probably the next major release): "area chart". This is because the area chart is often buggy and is not very informative.
+- (Application: GUI) The following elements of the Node-RED dashboard's "System Monitoring" tab will be removed in a future release (probably the next major release): "GPS status", "navigation", "USB backup". Note that v2024.0.0-alpha.2 already deprecated "USB backup" panel for removal in the next major release. The other deprecations are because most users don't have a working GPS module, and because the navigation panel is not very useful.
+- (Application: GUI) The Node-RED dashboard's "WiFi" tab will be removed in a future release (probably the next major release). This is because its left panel is never accurate, and its right panel only partially works, and the actions which can be performed in this tab can take the PlanktoScope into a state which can only be recovered by advanced users or by re-flashing the PlanktoScope's SD card. After removal of this tab, connections to existing Wi-Fi networks should instead be configured by editing `/etc/wpa_supplicant/wpa_supplicant.conf`, or (in the future) by some other command-line interface and/or graphical user interface.
+
+### Fixed
+
+- (Application: backend) The segmenter now correctly sets the `img_rank` metadata field of the EcoTaxa export to `1`, instead of setting it to an incrementing index which makes exports un-importable by EcoTaxa for datasets with more than ~32,000 objects.
+
 ## v2024.0.0-beta.3 - 2024-11-30
 
 ### Added
@@ -75,7 +111,6 @@ All dates in this file are given in the [UTC time zone](https://en.wikipedia.org
 
 ### Deprecated
 
-- (System: networking)
 - (System) 32-bit versions of PlanktoScope OS (which can be set up on a 32-bit version of Raspberry Pi OS using the OS setup scripts) are no longer officially supported by the project, but they will continue to work for v2024.0.0 of PlanktoScope OS.
 
 ### Removed
@@ -143,7 +178,7 @@ All dates in this file are given in the [UTC time zone](https://en.wikipedia.org
 
 - (System: networking) Added support to share internet access and browser application access over additional network interfaces: a second Wi-Fi module, an additional Ethernet adapter, and a USB networking interface (made by plugging a phone to the Raspberry Pi in USB tethering mode).
 - (Application: GUI) The "System Monitoring" page now shows the current system time on the Raspberry Pi and the current time in the web browser of the client device.
-- (Application: GUI) The "System Monitoring" page now detects when the Raspberry Pi's system time is very different from the web browser's time, and shows a message and a buttom to change the Raspberry Pi's system time to match the web browser's time.
+- (Application: GUI) The "System Monitoring" page now detects when the Raspberry Pi's system time is very different from the web browser's time, and shows a message and a button to change the Raspberry Pi's system time to match the web browser's time.
 - (Application: GUI) The "System Monitoring" page's system metrics panel is now collapsible, and it now includes an expandable "Detailed History" subsection to view additional information.
 - (System: administration) Added Dozzle as a viewer for Docker container logs.
 - (System: networking) Added `lynx` as an alternative terminal web browser to `w3m` for trying to work through captive portals on the Cockpit terminal.
