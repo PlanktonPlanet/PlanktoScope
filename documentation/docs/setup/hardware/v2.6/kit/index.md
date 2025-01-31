@@ -94,10 +94,7 @@ Dry all parts and store them for the assembly process.
 ## PlanktoScope Hat 1.3 PCB
 
 Welcome to the PCB production manual for the PlanktoScope Hat 1.3!
-
-
-Photo du Hat recto verso
-
+![Hat_recto_verso](images/Hat_recto_verso.PNG "Hat_recto_verso")
 
 A **Printed Circuit Board (PCB)** is a vital component of electronic devices, providing physical support and electrical connections for components. The PCB production process involves three main stages:
 
@@ -195,23 +192,25 @@ The following configuration parameters can be used for the production of the PCB
 | Gold fingers (thickness)   | without   |
 | Gold fingers (qty/PCB)     | without   |
 
+You should receive a PCB looking similar to the following pictures:
+![Hat_recto_verso_2](images/Hat_recto_verso_2.PNG "Hat_recto_verso_2")
+
 #### Next steps
 As explain earlier on and in order to let you dive into a fun DIY project or pick up a new skills, some soldering is about to come! In the following steps, we’ll guide you through assembling the Drivers TMC 5160 (used to control the peristaltic pump and the linear stepper motors) and the Axial Fan. Let’s get started!
 
 ### Assembly of the Drivers TMC 5160
 
 #### Tooling :hammer_and_wrench:
-photo du materiel nécessaire
 
 - Professional Soldering Iron
 - Solder
 - Breadboard
 - Utility knife
 - Mutlimeter
-
+![Drivers_toolings](images/Drivers_toolings.JPG "Drivers_toolings")
 
 >[!WARNING] 
-> When you solder this for the first time, take special care not to damage the board.
+> When you solder this for the first time, take special care to gather information and train yourself. Do not hesitate to have a look to this [Soldering 101: Beginners Guide](https://www.youtube.com/watch?v=rK38rpUy568).
 
 #### Assembly Steps
 
@@ -222,7 +221,7 @@ photo du materiel nécessaire
 | Driver TMC 5160 SilentStepStick      | 700-TMC5160SILENTSTE | 2   |
 | Connector Header Vertical 2POS .54MM | 732-5315-ND          | 2   |
 
-photo des drivers, connector
+![Drivers_components](images/Drivers_components.JPG "Drivers_components")
 
 >[!NOTE]
 > Usually 2 Connectors Header of 8 position comme alongside each Driver. If it is not the case you can also buy one with many position and cut it in order to gets 4*8 and 2*2 connectors.
@@ -238,15 +237,14 @@ Unpack the Drivers TMC 5160 and the Connector Header strips of 8 pins (x2) and 2
 
 Bridge Cut: use a razor blade or a utility knife to unable conductivity between 2 of the 4 slots as shown in the following visual:
 
-
-
-1 photo carte non coupée 1 photo carte coupée.
+![Drivers_bridge_cut](images/Drivers_bridge_cut.PNG "Drivers_bridge_cut")
 
 Check if the two slots are correctly isolated from one another with a multimeter in conductivity mode.
 
+![Drivers_bridge_cut_check](images/Drivers_bridge_cut_check.JPG "Drivers_bridge_cut_check")
 
 >[!WARNING]
-> This step might not follow traditional methods, but be careful to cut this bridge only to keep the PCB integrity.
+> This step not follow traditional methods, but be careful to cut this bridge only to keep the PCB integrity.
 
 3.  Set in position the Connector Header strips
 
@@ -261,21 +259,17 @@ The breadboard supports you during soldering to ensure the spacing and angle of 
 
 Positioned the Drivers TMC 5160 PCB on the connectors set on the breadboard.
 
-photo position drvier sur connector
+![Drivers_positioning](images/Drivers_positioning.JPG "Drivers_positioning")
 
 
 >[!WARNING]
 > Make sure that the larger chip labeled "trimatik" is positioned on the bottom of the board and the four smaller chips are positioned on the top of the board as shown in the picture.
 
-photo de pres d'un driver non soudé
-
-
-
 5.  Soldering
 
 Now solder all pins of the connectors strip.
 
-photo en traind e souder
+![Drivers_soldering](images/Drivers_soldering.JPG "Drivers_soldering")
 
 >[!TIP]
 > You can also solder one pin on one side and then the opposite pin on the other side to secure your workpiece, ensuring it stays in place without shifting accidentally.
@@ -301,6 +295,8 @@ These steps will show you how to install the axial fan on the PlanktoScope Hat 1
 - Screwdriver Hex 2
 - Wires Stripper pliers
 
+![Axial_fan_toolings](images/Axial_fan_toolings.JPG "Axial_fan_toolings")
+
 #### Assembly Steps
 
 1. Prepare the components
@@ -312,47 +308,52 @@ These steps will show you how to install the axial fan on the PlanktoScope Hat 1
 | Screw TBHC EMBASE M3X14 INOX A2       | TBHCEMB03/014A2      | 4   |
 | Square nuts M3x5.5x1.8                | ECRCAR03/05/05A2     | 4   |
 
-Photo des composants
+![Axial_fan_components](images/Axial_fan_components.JPG "Axial_fan_components")
 
 2. Install the Axial Fan
 
 :hammer_and_wrench:
 [Tooling](#tooling-hammerandwrench): 
-- [ ] Scredriver Hex2
-- [ ] Pliers
-
-Install the fan with the four screws and nuts on the top side of the PlanktoScope HAT 1.3 PCB. 
-
-
-Pay attention to the **running direction** with the arrow marking on the side of the Axial Fan. The Axial Fan should **blow on the cooler** of the Raspberry Pi (from Top to Bottom of the PlanktoScope HAT 1.3 PCB).
-
-Photo du positionnement du hat
-
-:hammer_and_wrench:
->_Tooling: use the wire stripper pliers_
+- [ ] Wire stripper pliers
+- [ ] Screwdriver Hex2
+- [ ] Classic Pliers
 
 Cut off the wires of the Axial Fan in order to leave about 6 cm.
 Strip the wires on 5mm.
 
+![Axial_fan_preparation](images/Axial_fan_preparation.JPG "Axial_fan_preparation")
 
-Photo des fils dénudés
+Install the fan with the four screws and nuts on the top side of the PlanktoScope HAT 1.3 PCB. 
+
+Pay attention to the **running direction** with the arrow marking on the side of the Axial Fan. The Axial Fan should **blow on the cooler** of the Raspberry Pi (from Top to Bottom of the PlanktoScope HAT 1.3 PCB).
+Engage the wire through the hole in the PlanktoScope HAT 1.3 PCB to reach the bottom of the board.
+
+![Axial_fan_placement](images/Axial_fan_placement.JPG "Axial_fan_placement")
+
+Screw the 4x **M3*14 Screw** with **Screwdriver Hex2** and **Classical pliers**.
+![Axial_fan_fixing](images/Axial_fan_fixing.JPG "Axial_fan_fixing")
 
 3. Solder the wires
 
-Engage the wire through the hole in the PlanktoScope HAT 1.3 PCB to reach the bottom of the board.
-Solder the fan cables according to the marking and color codes ⚫ GND, 🔴 VCC.
+Tin the wires extremities. Solder the fan cables according to the marking and color codes ⚫ GND, 🔴 VCC.
 
-Photo cables soudés
+![Axial_fan_tining](images/Axial_fan_tining.JPG "Axial_fan_tining")
+
+![Axial_fan_wire_soldering](images/Axial_fan_wire_soldering.JPG "Axial_fan_wire_soldering")
 
 4. Solder bridges
 
 Create soldering bridges between:
 
 - The 2 slots of J3
-- The middle slot and )D
-- The middle slot and +5V
+![Axial_fan_J3_bridge](images/Axial_fan_J3_bridge.JPG "Axial_fan_J3_bridge")
 
-   Photo des ponts de soudure
+- The middle slot and +5V
+![Axial_fan_5V_bridge](images/Axial_fan_5V_bridge.JPG "Axial_fan_5V_bridge")
+    
+- The middle slot and )D
+![Axial_fan_D_bridge](images/Axial_fan_D_bridge.JPG "Axial_fan_D_bridge")
+  
 
 ### You have finished soldering and assembling the components!
 
