@@ -368,7 +368,6 @@ In the following chapters we will go through soldering and crimping adventures.
 
 For this the needed equipments will be:
 #### Tooling :hammer_and_wrench:
-photo du materiel nécessaire
 
 - Professional Soldering Iron
 - Solder
@@ -376,6 +375,7 @@ photo du materiel nécessaire
 - Stripping pliers
 - Third Hand / small Anvil
 - Heat Gun
+![Cabling_toolings](images/Cabling_toolings.JPG "Cabling_toolings")
 
 You willl also need, in addition to the component themselves, some consumable:
 #### Consumable:
@@ -434,7 +434,7 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
     
 3. Same operation with the **Male Bullet Connector** and the ⚫**Black Wire**.
 >[!CAUTION]:
->It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
+>It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with white wire and red wire with the yellow.
 
 4. Slide a 15mm of Red Heat Srink on the female connector. Be careful of covering all the metalic part. Use the **heat gun** to secure it.
 
@@ -453,19 +453,31 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
 | Electrically locked push buttons Gebildet 16mm | 1   | Amazon - E222       |
 | Bullet Connector 3.5mm Male + Female           | 1   | Amazon - B081TXM3XN |
 
+![OnOff_button_component](images/OnOff_button_component.JPG "OnOff_button_component")
+
 2. Preparation of the **Push Button Gebildet**. Remove ⚪**White Wire** by firmly pulling on it. Prepare each wire end (whit wire include) with a 1 cm striping.
-3. Use the **Crimpimg Plier** to add a wire crimp on the 🔴**Red Wire** and an other one on the ⚫+⚪**Black+White wire**.
-4. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the ⚪**White wire
-5.
-6. ** in. Remove the solder iron. Wait the soldering material to dry.
-7. Same operation with the **Male Bullet Connector** and the 🔴**Red Wire**.
+   ![OnOff_button_prépa](images/OnOff_button_prépa.JPG "OnOff_button_prépa")
+
+3. Use the **Crimpimg Plier** to add a wire crimp on the 🔴+ :green_circle: **Red+Green wires**.
+![OnOff_button_crimp_rg](images/OnOff_button_crimp_rg.JPG "OnOff_button_crimp_rg")
+
+4. Use the **Crimpimg Plier** to add a wire crimp on the ⚫+⚪**Black+White wires**.
+![OnOff_button_crimp_bw](images/OnOff_button_crimp_bw.JPG "OnOff_button_crimp_bw")
+
+5. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the other extemity of the ⚪**White wire** in. Remove the solder iron. Wait the soldering material to dry.
+  ![OnOff_button_solder_f](images/OnOff_button_solder_f.JPG "OnOff_button_solder_f")
+
+6. Same operation with the **Male Bullet Connector** and the :yellow_circle: **Yellow Wire**.
+   ![OnOff_button_solder_m](images/OnOff_button_solder_m.JPG "OnOff_button_solder_m")
+
    
 >[!CAUTION]:
->It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with black wire and same story for the red one.
+>It will be plugged to the Alim Jack Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition with Alim Jack Assembly to be sure that white wire will go with black wire and the yellow wire with the red wire.
 
+7. Use 4 **Zip Tes** to secure the wires together.
+![OnOff_button_final](images/OnOff_button_final.JPG "OnOff_button_final")
 
-6. Use 4 **Zip Tes** to secure the wires together.
-7. OnOff Button is ready!
+8. OnOff Button is ready!
 
 ## Optic Assembly
 
