@@ -382,7 +382,7 @@ You willl also need, in addition to the component themselves, some consumable:
 
 - Heat Shrink Black \&Oslash
 - Heat Shrink Red \&Oslash
-- Wire Crimps \&Oslash
+- Wire Crimps
 - Zip Ties
 
 >[!NOTE]:
@@ -401,23 +401,26 @@ A simple first assembly is the LED Assembly.
 
 Here the JST connector proposed is already wired.
 
-Photo composants
+![Led_Assy_components](images/Led_Assy_components.JPG "Led_Assy_components")
 
 2. Prepare the wires. With the **stripping pliers** stripped the wire over 1cm.
 
-Photo fil dénudés
+3. Slide a black **heat shrink** on both of the wires. Slide an aditional and smaller red **Heat Shrink** on the red wire.
+![Led_Assy_heat_shrink](images/Led_Assy_heat_shrink.JPG "Led_Assy_heat_shrink")
 
 
-4. Find the anode (smaller) and cathode (longer) pin of the **LED**. Slide a **Heat Shrink** on each wire.
+4. Find the anode (smaller) and cathode (longer) pin of the **LED**.
+![Led_Assy_polarity](images/Led_Assy_polarity.JPG "Led_Assy_polarity")
+5. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and to the pins of the LED.
+   Solder the 🔴red wire to the cathode pin (longer pin) and the ⚫black wire to the anode (small pin)..
+![Led_Assy_wires_solder](images/Led_Assy_wires_solder.JPG "Led_Assy_wires_solder")
 
-Image anode vs cathode
 
-4. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and the pins of the LED and solder the ⚫black wire to the anode (small pin) and the 🔴red wire to the cathode pin (longer pin).
+6. Slide the heat srink on the soldering and use the **heat gun** to secure it and make sure <ins>no contact can be made between the 2 pins</ins>.
+![Led_Assy_heat_shrink2](images/Led_Assy_heat_shrink2.JPG "Led_Assy_heat_shrink2")
 
-5. Slide the heat srink on the soldering and use the **heat gun** to secure it and make sure <ins>no contact can be made between the 2 pins</ins>.
-
-6. Led Assembly is ready!
-
+7. Led Assembly is ready!
+![Led_Assy_final](images/Led_Assy_final.JPG "Led_Assy_final")
 
 ### Alim Jack Assembly
 
@@ -430,18 +433,23 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 | DC Power Jack Shield - 5,5mm 2,1mm   | 1   | Ampul	AM1249         |
 | Bullet Connector 3.5mm Male + Female | 1   | Amazon B081TXM3XN    |
 
-2. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the 🔴**Red Wire** in. Remove the solder iron. Wait the soldering material to dry.
-    
-3. Same operation with the **Male Bullet Connector** and the ⚫**Black Wire**.
+![Alim_Jack_Components](images/Alim_Jack_Components.JPG "Alim_Jack_Components")
+
+2. Set 15mm of Black and Red Heat Shrink  resppectively on the Black and Red wires.
+![Alim_jack_heat_shrink](images/Alim_jack_heat_shrink.JPG "Alim_jack_heat_shrink")
+
+3. Maintain the **Female Bullet Connector** up on the **Small Anvil**, warm it with the **Solder Iron tip** and fill the chambre of the connector with some soldering material and dive the 🔴**Red Wire** in. Remove the solder iron. Wait the soldering material to dry.
+4. Slide a 15mm of Red Heat Srink on the female connector. Be careful of covering all the metalic part. Use the **heat gun** to secure it.
+![Alim_jack_red_wire](images/Alim_jack_red_wire.JPG "Alim_jack_red_wire")
+
+5. Same operations with the **Male Bullet Connector** and the ⚫**Black Wire**.
+6. Slide a 15mm of Black Heat Srink on the male connector. Be careful of covering just the begining of the metalic connector. Use the **heat gun** to secure it.
+
 >[!CAUTION]:
 >It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with white wire and red wire with the yellow.
 
-4. Slide a 15mm of Red Heat Srink on the female connector. Be careful of covering all the metalic part. Use the **heat gun** to secure it.
-
-5. Slide a 15mm of Black Heat Srink on the male connector. Be careful of covering all the metalic part. Use the heat gun to secure it.
-
-6. Alim Jack Assembly is ready!
-
+7. Alim Jack Assembly is ready!
+![Alim_jack_final](images/Alim_jack_final.JPG "Alim_jack_final")
 
 ### OnOff Button Assembly
 
