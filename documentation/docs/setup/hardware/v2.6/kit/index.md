@@ -51,10 +51,6 @@ For a different thickness you’ll need to adapt it.
 ![Dogbone example.png](images/Dogbone example.png)
 
 
-
-
-Photo d’usinage arajouter
-
 #### Reference Plate
 
 In order to calibrate correctly your CNC machine you'll find here the .dxf file and the expected dimensions of a reference plate. If your parameters allowed you to reach these dimensions, you can report the adaptation on the [PlanktoScope_CaseV2.6.dxf] and launch the milling with more insurance.
@@ -449,6 +445,7 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 >It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with white wire and red wire with the yellow.
 
 7. Alim Jack Assembly is ready!
+   
 ![Alim_jack_final](images/Alim_jack_final.JPG "Alim_jack_final")
 
 ### OnOff Button Assembly
@@ -456,6 +453,7 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 The OnOff Button Assembly will be place between the Alim Jack Assembly and the PlanktoScope Hat 1.3 PCB. It will play the role of the switch On & Off of the PlanktoScope.
 
 1. Prepare the components:
+
 | Designation                                    | Qty | Reference           |
 |------------------------------------------------|-----|---------------------|
 | Electrically locked push buttons Gebildet 16mm | 1   | Amazon - E222       |
@@ -482,7 +480,7 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
 >[!CAUTION]:
 >It will be plugged to the Alim Jack Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition with Alim Jack Assembly to be sure that white wire will go with black wire and the yellow wire with the red wire.
 
-7. Use 4 **Zip Tes** to secure the wires together.
+7. Use 4 **Zip Ties** to secure the wires together.
 ![OnOff_button_final](images/OnOff_button_final.JPG "OnOff_button_final")
 
 8. OnOff Button is ready!
