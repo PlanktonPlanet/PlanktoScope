@@ -489,17 +489,18 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
 
 ## Optic Assembly
 
-One of the crucial part of the PlanktoScope is the Optic. It is THE most sensitive assembly as the sensor of the PI Camera HQ will be unprotected for few minutes.
-To perform this assembly, make sure your workstation is as clean as possible: dust will be our worst ennemy during this step.
+One of the crucial part of the PlanktoScope is the Optic. It is **THE most sensitive assembly** as the sensor of the PI Camera HQ will be unprotected for few minutes.
+**To perform this assembly, make sure your workstation is as clean as possible: dust will be our worst ennemy during this step**.
+
+![Optic_Assy_scheme](images/Optic_Assy_scheme.JPG "Optic_Assy_scheme")
 
 Prepare the following toolings:
 #### Tooling :hammer_and_wrench:
-photo du materiel nécessaire
 
 - Screwdriver Hex 1.5
 - Specific Thorlab tooling SPW909
 - A caliper
-
+![Optic_Assy_tools](images/Optic_Assy_tools.JPG "Optic_Assy_tools")
 ### Optic 20-200 Assembly
 
 1. Prepare the components:
@@ -511,12 +512,29 @@ photo du materiel nécessaire
 | M12 Lens 25MM 5MP 1/2"                          | 1   | Jetsun M12-25-5MP |
 | M12 Lens 12MM 5MP 1/2.5"                        | 1   | Jetsun M12-12-5MP |
 
+![Optic_Assy_components](images/Optic_Assy_components.JPG "Optic_Assy_components")
+
 2. Set the  **M12/25 Lens** and the **M12/12 Lens** on each of the **S1TM12 Lens Adapters**.
+![Optic_Assy_lens](images/Optic_Assy_lens.JPG "Optic_Assy_lens")
+
 3. Remove the retaining ring in the **CM1L10 Extension Tube**
-4. Insert the M12/25 Lens in the CM1L10 Extension Tube.Threaded side of the lens first. By using the **Tooling SPW909** set the lens Adapter at 14.7mm deep.
-5. Insert the M12/12 Lens in the CM1L10 Extension Tube.Threaded side of the lens out. By using the Tooling SPW909 screw gently up to contact with the M12/25 Lens. Set back the protective cap.
-6.  Remove the black holding part of the **HQ Camera Pi**  with the  **Screwdriver Hex 1.5**.
-7.  Follow the [official tutorial from RaspBerry to remove the IR Filtre](https://www.raspberrypi.com/documentation/accessories/camera.html#filter-removal).
+
+5. Insert the M12/25 Lens in the CM1L10 Extension Tube.Threaded side of the lens first. By using the **Tooling SPW909** set the lens Adapter at **14.7mm** deep.
+![Optic_Assy_lens_25](images/Optic_Assy_lens_25.JPG "Optic_Assy_lens_25")
+6. Remove M12/25 & M12/12 Lens protective caps on lens side.
+![Optic_Assy_caps](images/Optic_Assy_caps.JPG "Optic_Assy_caps")
+
+7. Insert the M12/12 Lens in the CM1L10 Extension Tube.Threaded side of the lens out. By using the Tooling SPW909 screw gently up to contact with the M12/25 Lens. _If you go gentlyn no worries of damaging anything, the contact zone will not be between the 2 lens directly but between the 2 black casing diameter._
+   Set back the protective cap.
+![Optic_Assy_Lens_12](images/Optic_Assy_Lens_12.JPG "Optic_Assy_Lens_12")
+
+9.  Open the black connector is simply a push/pull fit and disengage the cable ribbon. Save it for later on assembly
+![Optic_Assy_cable_ribbon](images/Optic_Assy_cable_ribbon.JPG "Optic_Assy_cable_ribbon")
+
+11.  Remove the black holding part of the **HQ Camera Pi**  with the  **Screwdriver Hex 1.5**. We will not use it afterwards.
+![Optic_Assy_holding](images/Optic_Assy_holding.JPG "Optic_Assy_holding")
+
+12.  Follow the [official tutorial from RaspBerry to remove the IR Filtre](https://www.raspberrypi.com/documentation/accessories/camera.html#filter-removal).
 
 >[!INFO]:
 > Do not hesitate to warm a bit the UV Filter with a heat gun or a hair dryer to soften the glue.
@@ -524,13 +542,15 @@ photo du materiel nécessaire
 >[!WARNING]:
 > This step is critical, try to remove the IR filtre without breaking it. If it is broken, clean as much as possible to remove all glass debris. Anyway, set your camera sensor asside and in a protected area during this operation. All dust and glass debris on the sensor will be really visible and emphasize on the final assembly.
 
-8. You can now assemble the Optical canon assembly with the HQ Camera Pi. 
+8. Remove M12/25 2nd protective cap. Do a small air cleaning with a dust blower. You can now assemble the Optical canon assembly with the HQ Camera Pi. 
+     Engage back the cable ribbon.
+![Optic_Assy_assembly](images/Optic_Assy_assembly.JPG "Optic_Assy_assembly")
 
 >[!INFO]:
 > On the first PlanktoScope switch on, you will see the results of this assembly. If some dust is visible use really carefuly a small dust blower to remove it from the camera sensor.
 
 9. The Optic 20-200 Assembly is ready!
-
+![Optic_Assy_final](images/Optic_Assy_final.JPG "Optic_Assy_final")
 ## To be continued...
 
 Congratulation, if you make it to the end of this "Kit Section" you may have succeeded to supply and manufacture the entire BOM for the PlanktoScope V2.6.
