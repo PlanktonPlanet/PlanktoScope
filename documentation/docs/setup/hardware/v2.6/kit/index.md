@@ -198,11 +198,11 @@ As explain earlier on and in order to let you dive into a fun DIY project or pic
 
 #### Tooling :hammer_and_wrench:
 
-- Professional Soldering Iron
-- Solder
-- Breadboard
-- Utility knife
-- Mutlimeter
+- [ ] Professional Soldering Iron
+- [ ] Solder
+- [ ] Breadboard
+- [ ] Utility knife
+- [ ] Mutlimeter
 ![Drivers_toolings](images/Drivers_toolings.JPG "Drivers_toolings")
 
 >[!WARNING] 
@@ -285,11 +285,11 @@ These steps will show you how to install the axial fan on the PlanktoScope Hat 1
 
 #### Tooling :hammer_and_wrench:
 
-- Professional Soldering Iron
-- Solder
-- Classic Pliers
-- Screwdriver Hex 2
-- Wires Stripper pliers
+- [ ] Professional Soldering Iron
+- [ ] Solder
+- [ ] Classic Pliers
+- [ ] Screwdriver Hex 2
+- [ ] Wires Stripper pliers
 
 ![Axial_fan_toolings](images/Axial_fan_toolings.JPG "Axial_fan_toolings")
 
@@ -365,21 +365,21 @@ In the following chapters we will go through soldering and crimping adventures.
 For this the needed equipments will be:
 #### Tooling :hammer_and_wrench:
 
-- Professional Soldering Iron
-- Solder
-- Crimping pliers
-- Stripping pliers
-- Third Hand / small Anvil
-- Heat Gun
+- [ ] Professional Soldering Iron
+- [ ] Solder
+- [ ] Crimping pliers
+- [ ] Stripping pliers
+- [ ] Third Hand / small Anvil
+- [ ] Heat Gun
 ![Cabling_toolings](images/Cabling_toolings.JPG "Cabling_toolings")
 
 You willl also need, in addition to the component themselves, some consumable:
 #### Consumable:
 
-- Heat Shrink Black \&Oslash
-- Heat Shrink Red \&Oslash
-- Wire Crimps
-- Zip Ties
+- [ ] Heat Shrink Black \&Oslash
+- [ ] Heat Shrink Red \&Oslash
+- [ ] Wire Crimps
+- [ ] Zip Ties
 
 >[!NOTE]
 >You can find reference example in the "Consumable" section of the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
@@ -496,9 +496,9 @@ One of the crucial part of the PlanktoScope is the Optic. It is **THE most sensi
 Prepare the following toolings:
 #### Tooling :hammer_and_wrench:
 
-- Screwdriver Hex 1.5
-- Specific Thorlab tooling SPW909
-- A caliper
+- [ ] Screwdriver Hex 1.5
+- [ ] Specific Thorlab tooling SPW909
+- [ ] A caliper
 ![Optic_Assy_tools](images/Optic_Assy_tools.JPG "Optic_Assy_tools")
 ### Optic 20-200 Assembly
 
