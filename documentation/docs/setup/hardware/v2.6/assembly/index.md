@@ -285,6 +285,7 @@ In order to perform all the assembly steps you will need the following toolings:
 * Connect the **ribbon cable** to the camera
 >[!WARNING]
 >Blue rectangle on Ribbon Cable should face you. Be careful of the connector and the complete connection of the ribbon.
+
 ![Finalize Main Assembly 2.png](images/Finalize_Main_Assembly_2.png "Finalize Main Assembly 2.png")
 
 * Insert the camera module into its dedicated slot on Part I.
@@ -304,7 +305,8 @@ In order to perform all the assembly steps you will need the following toolings:
 * Use the **T8H or Hex2 screwdriver** to fix each of the **4 x M2.5x10mm screws** in place, ensuring they are firmly attached but not overly tightened
 
 >[!NOTE]
->Design of Bamboo Part E has evolved suring PlanktoscopeV2.6 life. You may obtain a slightly different part as shown in the picture. Assembly process is the same. 
+>Design of Bamboo Part E has evolved suring PlanktoscopeV2.6 life. You may obtain a slightly different part as shown in the picture. Assembly process is the same.
+
 ![Finalize Main Assembly 6.png](images/Finalize_Main_Assembly_6.png "Finalize Main Assembly 6.png")
 
 * Insert the **Part D** onto Part I, making sure about its orientation (see :orange_circle: orientation refrence)
@@ -331,6 +333,7 @@ In order to perform all the assembly steps you will need the following toolings:
 
 >[!WARNING]
 >Be careful not to apply tension on the led wires and the led itself while setting the cable jacket.
+
 ![Finalize Main Assembly 13.png](images/Finalize_Main_Assembly_13.png "Finalize Main Assembly 13.png")
 
 *  Position **4x Zip ties** to simplify the electrical assembly
@@ -386,6 +389,7 @@ In order to perform all the assembly steps you will need the following toolings:
 * Assemble the **2 x knurled head screws M2,5x12mm** with their **2 x Nut HU M2.5**
 >[!NOTE]
 >Beware of the assembly way : nuts on the Oring side in the machined holes
+
 ![Flowcell Holder Assembly 2](images/Flowcell_Holder_Assembly_2.jpg "Flowcell Holder Assembly 2")
 
 * Assemble Part G on Part F part with the 2 knurled screws
