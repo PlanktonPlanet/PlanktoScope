@@ -3,12 +3,9 @@
 In this section you will go through all the steps to supply and create your PlanktoScope kit.
 You can find a list of the components needed in the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
 
-| Files                                                                               | Description                        |
-|-------------------------------------------------------------------------------------|------------------------------------|
-| [Planktoscope V2.6 BOM](../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)       | 4                                  |
-| [Planktoscope V2.6 BOM](../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)    | 5                                  |
-| [Planktoscope V2.6 BOM](../../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx) | Bill Of Material for PlanktoScope6 |
-|                                                                                     |                                    |
+| Files                                                                               | Description                       |
+|-------------------------------------------------------------------------------------|-----------------------------------|
+| [Planktoscope V2.6 BOM](../../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx) | Bill Of Material for PlanktoScope |
 
 We tried to have the most easy-to-supply components, you still may have to adapt and research for new suppliers according to product availability and your location.
 If you find some local alternative please share your custom BOM to our GitHub Discussions thread for [v2.6 Localized Hardware BOMs](https://github.com/PlanktoScope/PlanktoScope/discussions/502), so that other members of our community can learn from your work!
@@ -27,7 +24,7 @@ In order to create the PlanktoScope case, parts were designed to be machined wit
 The configuration of the CNC milling machine plays a crucial role in the machining process and can significantly affect the quality and efficiency of the production of a workpiece. You will have to adapt the file to your machine as every CNC milling machine gets its characteristics: feed rate and diameter adjustment according to your machine and selected end mill. 
 And don't forget safety, use your nicest protective glasses! :-)
 
-![Bamboo Structure V2.6 dxf view](images/Bamboo Structure V2.6 dxf view.png "Bamboo Structure V2.6 dxf view")
+![Bamboo Structure V2.6 dxf view](images/Bamboo_Structure_V2.6_dxf_view.png "Bamboo Structure V2.6 dxf view")
 
 
 ### Manufacturing file
@@ -51,7 +48,7 @@ For a different thickness you’ll need to adapt it.
 >[!TIP]
 >For a better assembly and if your software does not add it automaticaly use "dog bone" filet on every corner. :bone:
 
-![Dogbone example.png](images/Dogbone example.png)
+![Dogbone example.png](images/Dogbone_example.png)
 
 
 #### Reference Plate
@@ -89,7 +86,7 @@ Here you can use your favorite finishing according to the selected material. Be 
 
 Dry all parts and store them for the assembly process.
 
-![Bamboo Structure V2.6 exploded view](images/Bamboo Structure V2.6 exploded view.png "Bamboo Structure V2.6 dxf view")
+![Bamboo Structure V2.6 exploded view](images/Bamboo_Structure_V2.6_exploded_view.png "Bamboo Structure V2.6 dxf view")
 ## PlanktoScope Hat 1.3 PCB
 
 Welcome to the PCB production manual for the PlanktoScope Hat 1.3!
