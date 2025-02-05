@@ -112,10 +112,10 @@ We will also guide you through the assembly of side components to complete the P
 
 #### Manufacturing Files
 
-| Files                                                                                                                 | Description                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [Gerber files PlanktoScope HAT V1.3.zip](../../../../assets/hardware/v2.6/Gerber files PlanktoScope HAT V1.3.zip)     | The exported Gerber files for PCB fabrication                                                                                 |
-| [Assembly files PlanktoScope HAT V1.3.zip](../../../../assets/hardware/v2.6/Assembly files PlanktoScope HAT V1.3.zip) | The SMD components list and assembly footprints, Pick-and-place machine instructions, Additional data for ThruHole components |
+| Files                                                                                                                | Description                                                                                                                   |
+|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [Gerber files PlanktoScope HAT V1.3.zip](../../../../../../hardware/v2.6/Gerber_files_PlanktoScope_HAT_V1.3.zip)     | The exported Gerber files for PCB fabrication                                                                                 |
+| [Assembly files PlanktoScope HAT V1.3.zip](../../../../../../hardware/v2.6/Assembly_files_PlanktoScope_HAT_V1.3.zip) | The SMD components list and assembly footprints, Pick-and-place machine instructions, Additional data for ThruHole components |
 
 Some components are missing from the "Pick-and-Place machine instructions" file. Please refer to the document titled "PlanktoscopeHat-v1.3-fab\_thru-hole component (missing from PnP).jpg" for further details.
 
