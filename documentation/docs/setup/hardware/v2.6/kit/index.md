@@ -541,7 +541,7 @@ Prepare the following toolings:
 
 9.  Follow the [official tutorial from RaspBerry to remove the IR Filtre](https://www.raspberrypi.com/documentation/accessories/camera.html#filter-removal).
 
->[!INFO]
+>[!NOTE]
 > Do not hesitate to warm a bit the UV Filter with a heat gun or a hair dryer to soften the glue.
 
 >[!WARNING]
@@ -551,7 +551,7 @@ Prepare the following toolings:
      Engage back the cable ribbon.
 ![Optic_Assy_assembly](images/Optic_Assy_assembly.JPG "Optic_Assy_assembly")
 
->[!INFO]
+>[!NOTE]
 > On the first PlanktoScope switch on, you will see the results of this assembly. If some dust is visible use really carefuly a small dust blower to remove it from the camera sensor.
 
 11. The Optic 20-200 Assembly is ready!
