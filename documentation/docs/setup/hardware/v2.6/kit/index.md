@@ -3,11 +3,12 @@
 In this section you will go through all the steps to supply and create your PlanktoScope kit.
 You can find a list of the components needed in the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
 
-| Files                                                                                  | Description                        |
-|----------------------------------------------------------------------------------------|------------------------------------|
-| [Planktoscope V2.6 BOM](../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)          | 4                                  |
-| [Planktoscope V2.6 BOM](../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)       | 5                                  |
-| [Planktoscope V2.6 BOM](../../../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx) | Bill Of Material for PlanktoScope7 |
+| Files                                                                               | Description                        |
+|-------------------------------------------------------------------------------------|------------------------------------|
+| [Planktoscope V2.6 BOM](../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)       | 4                                  |
+| [Planktoscope V2.6 BOM](../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx)    | 5                                  |
+| [Planktoscope V2.6 BOM](../../../../../../hardware/v2.6/Planktoscope_V2.6_BOM.xlsx) | Bill Of Material for PlanktoScope6 |
+|                                                                                     |                                    |
 
 We tried to have the most easy-to-supply components, you still may have to adapt and research for new suppliers according to product availability and your location.
 If you find some local alternative please share your custom BOM to our GitHub Discussions thread for [v2.6 Localized Hardware BOMs](https://github.com/PlanktoScope/PlanktoScope/discussions/502), so that other members of our community can learn from your work!
