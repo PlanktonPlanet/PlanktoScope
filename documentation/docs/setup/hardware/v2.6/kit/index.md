@@ -381,7 +381,7 @@ You willl also need, in addition to the component themselves, some consumable:
 - Wire Crimps
 - Zip Ties
 
->[!NOTE]:
+>[!NOTE]
 >You can find reference example in the "Consumable" section of the [Planktoscope V2.6 BOM](../../../../assets/hardware/v2.6/Planktoscope V2.6 BOM.xlsx).
 
 ### LED Assembly
@@ -406,6 +406,7 @@ Here the JST connector proposed is already wired.
 
 
 4. Find the anode (smaller) and cathode (longer) pin of the **LED**.
+
 ![Led_Assy_polarity](images/Led_Assy_polarity.JPG "Led_Assy_polarity")
 5. Maintain the LED or the wires with the **third hand**. Add some soldering material to both the wires extremities and to the pins of the LED.
    Solder the 🔴red wire to the cathode pin (longer pin) and the ⚫black wire to the anode (small pin)..
@@ -441,12 +442,11 @@ The Alim Jack Assembly will be the link between the external 12V adaptor to the 
 5. Same operations with the **Male Bullet Connector** and the ⚫**Black Wire**.
 6. Slide a 15mm of Black Heat Srink on the male connector. Be careful of covering just the begining of the metalic connector. Use the **heat gun** to secure it.
 
->[!CAUTION]:
+>[!CAUTION]
 >It will be plugged to the OnOff Button Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition to be sure that black wire will go with white wire and red wire with the yellow.
 
 7. Alim Jack Assembly is ready!
-   
-![Alim_jack_final](images/Alim_jack_final.JPG "Alim_jack_final")
+   ![Alim_jack_final](images/Alim_jack_final.JPG "Alim_jack_final")
 
 ### OnOff Button Assembly
 
@@ -477,7 +477,7 @@ The OnOff Button Assembly will be place between the Alim Jack Assembly and the P
    ![OnOff_button_solder_m](images/OnOff_button_solder_m.JPG "OnOff_button_solder_m")
 
    
->[!CAUTION]:
+>[!CAUTION]
 >It will be plugged to the Alim Jack Assembly so each connector male or female must be solder carefully to be pluggable. It is made in opposition with Alim Jack Assembly to be sure that white wire will go with black wire and the yellow wire with the red wire.
 
 7. Use 4 **Zip Ties** to secure the wires together.
@@ -534,17 +534,17 @@ Prepare the following toolings:
 
 12.  Follow the [official tutorial from RaspBerry to remove the IR Filtre](https://www.raspberrypi.com/documentation/accessories/camera.html#filter-removal).
 
->[!INFO]:
+>[!INFO]
 > Do not hesitate to warm a bit the UV Filter with a heat gun or a hair dryer to soften the glue.
 
->[!WARNING]:
+>[!WARNING]
 > This step is critical, try to remove the IR filtre without breaking it. If it is broken, clean as much as possible to remove all glass debris. Anyway, set your camera sensor asside and in a protected area during this operation. All dust and glass debris on the sensor will be really visible and emphasize on the final assembly.
 
 8. Remove M12/25 2nd protective cap. Do a small air cleaning with a dust blower. You can now assemble the Optical canon assembly with the HQ Camera Pi. 
      Engage back the cable ribbon.
 ![Optic_Assy_assembly](images/Optic_Assy_assembly.JPG "Optic_Assy_assembly")
 
->[!INFO]:
+>[!INFO]
 > On the first PlanktoScope switch on, you will see the results of this assembly. If some dust is visible use really carefuly a small dust blower to remove it from the camera sensor.
 
 9. The Optic 20-200 Assembly is ready!
